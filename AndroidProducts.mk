@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/device_freezerfhd.mk
+    $(LOCAL_DIR)/freezerfhd.mk
