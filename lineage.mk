@@ -2,10 +2,10 @@
 PRODUCT_RELEASE_NAME := freezerfhd
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/bq/freezerfhd/device_freezerfhd.mk)
+$(call inherit-product, device/bq/freezerfhd/device.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := freezerfhd
